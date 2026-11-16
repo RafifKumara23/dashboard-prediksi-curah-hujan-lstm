@@ -77,7 +77,7 @@ def kategori_bmkg(mm):
     if mm < 0.5:
         return "Tidak Hujan (Berawan / Cerah)", "badge-cerah", False
     elif mm <= 20:
-        return "Hujan Ringan", "badge-hujan", True
+        return "Hujan -Hujan", "badge-hujan", True
     elif mm <= 50:
         return "Hujan Sedang", "badge-hujan", True
     elif mm <= 100:
